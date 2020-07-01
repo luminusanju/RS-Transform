@@ -1,0 +1,418 @@
+{
+  "id": "ersiK5u7aGJCBin",
+  "name": "_EMPTY",
+  "type": "tradeitem",
+  "properties": {
+    "createdService": "entityManageService",
+    "createdBy": "gdsnadmin@riversand.com_user",
+    "createdDate": "2020-06-12T06:31:13.405-0500",
+    "modifiedService": "entityManageService",
+    "modifiedBy": "gdsnadmin@riversand.com_user",
+    "modifiedDate": "2020-06-16T08:27:10.299-0500"
+  },
+  "data": {
+    "attributes": {
+      "gtin": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "bc09233c-8b7c-4988-806b-af6a3590fadd",
+            "value": "87336753765989"
+          }
+        ]
+      },
+      "isTradeItemAnOrderableUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "a9d5d07c-60e7-4e28-b0a0-3398418f41da",
+            "value": false
+          }
+        ]
+      },
+      "tradeItemUnitDescriptorCode": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "184ec09e-23c9-4fbf-a3d8-acc51f9fa377",
+            "value": "Pallet",
+            "properties": {
+              "referenceData": "tradeitemunitdescriptorcode/_LlTF2mtQsGGoiEP7hav2Q",
+              "referenceDataIdentifier": "PALLET"
+            }
+          }
+        ]
+      },
+      "tradeItemDescriptors": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "184ec09e-23c9-4fbf-a3d8-acc51f9fa377",
+            "value": "Case",
+            "properties": {
+              "referenceData": "tradeitemdescriptors/_LlTF2mtQsGGoiEP6tss7",
+              "referenceDataIdentifier": "CASE"
+            }
+          },
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "184ec09e-23c9-4fbf-a3d8-acc51f9fa377",
+            "value": "Each",
+            "properties": {
+              "referenceData": "tradeitemdescriptors/_erTs9F2mtQsGGoiEP6tss7",
+              "referenceDataIdentifier": "EACH"
+            }
+          }
+        ]
+      },
+      "weight": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "12",
+            "uom": "kgm"
+          }
+        ]
+      },
+      "weights": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "6",
+            "uom": "kgm"
+          },
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "4",
+            "uom": "gm"
+          }
+        ]
+      },
+      "additionalTradeItemIdentificationTypeCodes": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "NPN"
+          },
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "ABC"
+          }
+        ]
+      },
+      "description": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "description US"
+          },
+          {
+            "source": "internal",
+            "locale": "fr-FR",
+            "id": "c37d6289-bc8e-4b4a-a90f-f980d8c3c770",
+            "value": "description FR"
+          }
+        ]
+      },
+      "brandOwner": {
+        "group": [
+          {
+            "brandOwner_GLN": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "594a1bc5-bf60-4f7f-ac17-86b07bec2118",
+                  "value": "333112244"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "a1712d62-659f-4cc6-a4ad-e62354286371"
+          }
+        ]
+      },
+      "isTradeItemABaseUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "7d5354af-093e-45fb-9a6f-93bc0d309edf",
+            "value": true
+          }
+        ]
+      },
+      "isTradeItemAConsumerUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "77d7ab37-caa5-4b99-9f60-f230d2a02d9d",
+            "value": false
+          }
+        ]
+      },
+      "isTradeItemADispatchUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "2d5ad6fe-ab4c-4a47-bddb-8ea3ccbc8b96",
+            "value": false
+          }
+        ]
+      },
+      "isTradeItemAnInvoiceUnit": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "58a6b3a6-85ec-4b0f-ac28-b80aeaa36cf8",
+            "value": true
+          }
+        ]
+      },
+      "manufacturer": {
+        "group": [
+          {
+            "manufacturer_gln": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "3b333c0b-7568-411c-9583-f2f12d13b9c2",
+                  "value": "53321122334"
+                }
+              ]
+            },
+            "partyName": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "3a07953e-22a9-4606-9dcf-41871ac184e7",
+                  "value": "Test"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "926eaa2c-446f-4795-880c-5c5f5622b1cc"
+          }
+        ]
+      },
+      "additionalTradeItemIdentification": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "020bfc51-8503-41ed-a987-420ed0881872",
+            "value": "001"
+          }
+        ]
+      },
+      "dependentProprietaryTradeItem": {
+        "group": [
+          {
+            "referencedTradeItemGTIN": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "40327ebd-d0bb-4b88-a69a-7a82b0609e99",
+                  "value": "02222777555"
+                }
+              ]
+            },
+            "referencedTradeItemTypeCode": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "95ce1818-f33e-43d5-b803-361fcff44409",
+                  "value": "PL"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "76547dab-1e25-4066-a839-a6895197f3bf"
+          }
+        ]
+      },
+      "displayUnitInformation": {
+        "group": [
+          {
+            "hasDisplayReadyPackaging": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "d25c3512-79d6-4687-be24-26485db0c05f",
+                  "value": "true"
+                }
+              ]
+            },
+            "isTradeItemADisplayUnit": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "4db5d3e0-3b50-44c4-bc54-47822eb6d9e4",
+                  "value": "yes"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "0622365f-501d-46da-9afb-57f973620721"
+          },
+          {
+            "hasDisplayReadyPackaging": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "e7fc77bb-07cb-44a5-b123-344eabb6fd51",
+                  "value": "false"
+                }
+              ]
+            },
+            "isTradeItemADisplayUnit": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "eb9c06f0-9b11-4f68-9ea4-3a534218c358",
+                  "value": "yes"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "68117849-4045-4d35-a22a-eaa2de8cf795"
+          }
+        ]
+      },
+      "targetMarket": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "1cbf2801-ad3e-40d3-86e9-409d9d7e117b",
+            "value": "US"
+          }
+        ]
+      },
+      "tradeItemInformation": {
+        "group": [
+          {
+            "productionVariantDescription": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "da754285-1c2b-4625-b616-fa76ba412b79",
+                  "value": "Transforming test 01"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "97dd23dc-f6aa-473f-add2-eaf4e223e335"
+          },
+          {
+            "productionVariantDescription": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "b0c2f5c4-680b-4ad6-8776-a809f0937d7d",
+                  "value": "T T 02"
+                }
+              ]
+            },
+            "locale": "en-US",
+            "source": "internal",
+            "id": "8811315d-c5a4-41a5-84f0-16531aa620af"
+          }
+        ]
+      },
+      "entitygraphtitle": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "85f13153-0d13-48dd-9558-5be355d25a25",
+            "value": "Test title"
+          }
+        ]
+      },
+      "gln": {
+        "values": [
+          {
+            "source": "internal",
+            "locale": "en-US",
+            "id": "e6e5d855-acd6-4c3c-b5d2-bb88135b9f2e",
+            "value": "677777222"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "childTradeItem": [
+        {
+          "relTo": {
+            "id": "ers1Th0x0Cijbz4",
+            "type": "tradeitem"
+          },
+          "attributes": {
+            "gtin": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "4e40a750-7fc5-4b24-aa18-6c1cb3c200de",
+                  "value": 87336753765981
+                }
+              ]
+            },
+            "totalQuantityOfNextLowerLevelTradeItem": {
+              "values": [
+                {
+                  "source": "internal",
+                  "locale": "en-US",
+                  "id": "9583292d-17f6-4c71-99d0-47fe5fa06948",
+                  "value": "6"
+                }
+              ]
+            }
+          },
+          "id": "childTradeItem_ers1Th0x0Cijbz4",
+          "properties": {
+            "direction": "both",
+            "relationshipType": "childTradeItem"
+          }
+        }
+      ]
+    }
+  }
+}

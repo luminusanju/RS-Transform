@@ -1,0 +1,218 @@
+{
+  "executionContext": {
+    "tenantId": "connectords",
+    "userId": "gdsnadmin@riversand.com",
+    "userRole": "admin",
+    "ownershipData": "Nike",
+    "originatingClientId": "rdpclient",
+    "clientId": "rdpclient"
+  },
+  "connectProfile": {
+    "id": "sys_export_onews_publish_base",
+    "name": "sys_export_onews_publish_base",
+    "type": "ENTITY_EXPORT",
+    "statusEventEnabled": "true",
+    "integrationType": "System",
+    "isEnabled": "true",
+    "isMergeableWithCustom": true,
+    "taskSubType": "SYNDICATE",
+    "collect": {
+      "isBinaryStreamPersistent": "true",
+      "channel": [
+        {
+          "settings": {
+            "includeParent": "false",
+            "includeChildren": "false",
+            "includeSiblings": "false",
+            "includeRelatedEntities": "false",
+            "type": "RSJSON",
+            "version": "1.1",
+            "includeRelatedEntityExternalIds": "false"
+          },
+          "type": "rdpConnector"
+        }
+      ],
+      "format": {
+        "settings": {
+          "additionalSettings": {
+            "extractToCollect": "false",
+            "supportEmptyContextsRequest": true,
+            "sendDataInConstructor": true
+          }
+        },
+        "type": "RSJSON",
+        "batchSize": 100,
+        "version": "1.1"
+      }
+    },
+    "publish": {
+      "filter": {
+        "include": {},
+        "exclude": {}
+      },
+      "isBinaryStreamPersistent": "false",
+      "channel": [
+        {
+          "settings": {
+            "includeParent": "false",
+            "includeChildren": "false",
+            "includeSiblings": "false",
+            "includeRelatedEntities": "false",
+            "type": "RSJSON",
+            "version": "1.1",
+            "includeRelatedEntityExternalIds": "false"
+          },
+          "type": "rdpConnector"
+        }
+      ],
+      "format": {
+        "settings": {
+          "additionalSettings": {
+            "isISJson": true
+          }
+        },
+        "type": "JSON",
+        "batchSize": 1,
+        "version": "1.0"
+      }
+    },
+    "transform": {
+      "type": "GDSNTransformer",
+      "settings": {
+        "additionalSettings":{
+          "mappingConfig": "gdsn_static_mappings"
+        },
+        "channel": "GDSN",
+        "generateRelationshipFieldMap": false,
+        "allowNullValues": "false",
+        "loadDefaultOverrides": true,
+        "clearMissingAttributes": "false",
+        "strategies": [
+          {
+            "caseFormat": "NONE",
+            "trimTrailingNumbers": "false",
+            "isDefault": "false",
+            "removeSpecialCharacters": "false",
+            "removeWhitespace": "false",
+            "useExternalName": "false",
+            "trimLeadingNumbers": "false"
+          }
+        ],
+        "entityType": "@field(type)",
+        "enableDynamicMapping": "true",
+        "integrationRecordTransformer": "true",
+        "collectionSeparator": "||"
+      },
+      "fieldMap": [
+        {
+          "id": 1421804695,
+          "source": "@attr(gtin)",
+          "destination": "@path(gtin)",
+          "entityType": "tradeitem",
+          "type": "string",
+          "entityIdentifier": true,
+          "hasUOM": false,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(isTradeItemAnOrderableUnit)",
+          "destination": "@path(isTradeItemAnOrderableUnit)",
+          "entityType": "tradeitem",
+          "type": "boolean",
+          "entityIdentifier": false,
+          "hasUOM": false,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(tradeItemUnitDescriptorCode)",
+          "destination": "@path(tradeItemUnitDescriptor.tradeItemUnitDescriptorCode#@#tradeItemUnitDescriptor.__value__)",
+          "entityType": "tradeitem",
+          "entityIdentifier": false,
+          "type": "referenceTypeData",
+          "hasUOM": false,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(weight)",
+          "destination": "@path(weight)",
+          "entityType": "tradeitem",
+          "type": "string",
+          "entityIdentifier": false,
+          "hasUOM": true,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(weights)",
+          "destination": "@path(weights[%d])",
+          "entityType": "tradeitem",
+          "type": "string",
+          "entityIdentifier": false,
+          "hasUOM": true,
+          "collectionType": true,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(additionalTradeItemIdentificationTypeCodes)",
+          "destination": "@path(additionalTradeItemIdentificationTypeCodes[%d])",
+          "entityType": "tradeitem",
+          "type": "string",
+          "entityIdentifier": false,
+          "hasUOM": false,
+          "collectionType": true,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(tradeItemDescriptors)",
+          "destination": "@path(tradeItemDescriptors[%d].tradeItemDescriptorCode#@#tradeItemDescriptors[%d].__value__)",
+          "entityType": "tradeitem",
+          "entityIdentifier": false,
+          "type": "referenceTypeData",
+          "hasUOM": false,
+          "collectionType": true,
+          "isLocalizable": false,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        },
+        {
+          "id": 1421804695,
+          "source": "@attr(description)",
+          "destination": "@path(description[%d])",
+          "entityType": "tradeitem",
+          "entityIdentifier": false,
+          "type": "string",
+          "hasUOM": false,
+          "collectionType": false,
+          "isLocalizable": true,
+          "isFormattingAppliedOnExports": false,
+          "isKeyValuePair": true,
+          "isSystemAttribute": false
+        }
+      ]
+    }
+  }
+}

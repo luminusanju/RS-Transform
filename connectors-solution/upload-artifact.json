@@ -1,0 +1,11 @@
+{
+  "tenantList" :[
+    "{{TENANTID}}"
+  ],
+  "serviceList" :[
+    "connectorservice-importexport"
+  ],
+  "artifactList" :[
+    "gdsn-transformation"
+  ]
+}

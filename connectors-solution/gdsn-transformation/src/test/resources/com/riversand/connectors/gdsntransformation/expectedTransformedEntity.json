@@ -1,0 +1,46 @@
+{
+  "gtin": "87336753765989",
+  "isTradeItemAnOrderableUnit": false,
+  "tradeItemUnitDescriptor": {
+    "tradeItemUnitDescriptorCode": "Pallet",
+    "__value__": "PALLET"
+  },
+  "weight": {
+    "measurementUnitCode": "kgm",
+    "__value__": "12"
+  },
+  "weights": [
+    {
+      "measurementUnitCode": "kgm",
+      "__value__": "6"
+    },
+    {
+      "measurementUnitCode": "gm",
+      "__value__": "4"
+    }
+  ],
+  "additionalTradeItemIdentificationTypeCodes": [
+    "NPN",
+    "ABC"
+  ],
+  "tradeItemDescriptors": [
+    {
+      "tradeItemDescriptorCode": "Case",
+      "__value__": "CASE"
+    },
+    {
+      "tradeItemDescriptorCode": "Each",
+      "__value__": "EACH"
+    }
+  ],
+  "description": [
+    {
+      "languageCode": "en-US",
+      "__value__": "description US"
+    },
+    {
+      "languageCode": "fr-FR",
+      "__value__": "description FR"
+    }
+  ]
+}
